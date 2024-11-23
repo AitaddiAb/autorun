@@ -6,8 +6,9 @@
   "scripts": {
     "serve": "vite",
     "build": "vite build",
-    "serve:android": "tauri android dev",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "android:serve": "tauri android dev",
+    "android:build": "tauri android build --apk"
   },
   "dependencies": {
     "vue": "^3.5.13"
